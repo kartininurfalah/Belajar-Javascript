@@ -13,4 +13,4 @@ var user = {
   }
 };
 
-user.sayHiAlt();
+user.sayHiAlt(1, 2, 3);

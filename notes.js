@@ -65,7 +65,6 @@ var logNote = (note) => {
   console.log(`Body: ${note.body}`);
 };
 
-
 module.exports = {
   addNote,
   getAll,
