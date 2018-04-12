@@ -34,7 +34,6 @@ const argv = yargs
   .help()
   .argv;
 var command = argv._[0];
-
 if (command === 'add') {
   var note = notes.addNote(argv.title, argv.body);
   if (note) {
@@ -62,12 +61,10 @@ if (command === 'add') {
 } else {
   console.log('Command not recognize');
 }
-
 // console.log(_.isString(true));
 // console.log(_.isString('Falah');
 // var filteredArray = _.uniq(['Falah'])
 // console.log(filteredArray);
-
 // console.log('Result: ', notes.add(9, -2));
 
 // var res = notes.addNote();
